@@ -1,0 +1,24 @@
+/* style.css */
+body {
+  scroll-behavior: smooth;
+}
+a, button {
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  transform: scale(1.02);
+}
+img {
+  transition: transform 0.3s ease;
+}
+img:hover {
+  transform: scale(1.03);
+}
+input, textarea {
+  outline: none;
+  transition: border 0.3s;
+}
+input:focus, textarea:focus {
+  border-color: #10b981; /* green-500 */
+  box-shadow: 0 0 0 1px #10b981;
+}
